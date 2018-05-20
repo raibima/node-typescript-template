@@ -7,6 +7,7 @@ Write your node app with typescript immediately!
 The following programs are included to help you bootstrap your app development:
 - configured node.js & typescript development environment
 - linter ([tslint](https://palantir.github.io/tslint/))
+- [VSCode](https://code.visualstudio.com/) workspace configuration
 
 ## Prerequisites
 
