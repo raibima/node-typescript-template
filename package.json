@@ -1,0 +1,27 @@
+{
+  "name": "node-typescript-template",
+  "version": "0.1.0",
+  "description": "Opinionated template for writing node app with typescript",
+  "keywords": [
+    "node",
+    "typescript",
+    "template",
+    "boilerplate"
+  ],
+  "bugs": "https://github.com/raibima/node-typescript-template/issues",
+  "license": "MIT",
+  "author": "Raibima Putra <rayp1100@gmail.com> (https://github.com/raibima)",
+  "repository": "github:raibima/node-typescript-template",
+  "scripts": {
+    "start": "node bin/app",
+    "dev": "nodemon bin/app",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}

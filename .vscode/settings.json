@@ -1,0 +1,9 @@
+{
+  "tslint.ignoreDefinitionFiles": false,
+  "tslint.autoFixOnSave": true,
+  "tslint.exclude": "**/node_modules/**/*",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bin": true
+  }
+}
